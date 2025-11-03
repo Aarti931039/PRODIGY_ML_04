@@ -1,0 +1,9 @@
+dataset/
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.joblib
+__pycache__/
+venv/
+.env/
