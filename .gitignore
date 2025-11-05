@@ -1,9 +1,79 @@
-dataset/
-*.zip
-*.jpg
-*.jpeg
-*.png
-*.joblib
+# -----------------------------
+# Python / ML Project .gitignore
+# -----------------------------
+
+# === Python cache ===
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.joblib
+
+# === Virtual environments ===
+.venv/
 venv/
-.env/
+env/
+ENV/
+*.env
+*.venv
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Dataset folders ===
+dataset/
+data/
+datasets/
+images/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.rar
+*.tar
+*.gz
+
+# === Model files ===
+*.h5
+*.hdf5
+*.pb
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.weights
+*.ckpt
+
+# === Log and output files ===
+logs/
+*.log
+*.out
+*.tmp
+*.bak
+
+# === IDE / Editor files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Project build ===
+build/
+dist/
+*.egg-info/
+
+# === Temporary / misc ===
+__MACOSX/
+*.old
+*.orig
+
+# === Ignore Git LFS backups ===
+.gitattributes
